@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Cursed";
+    src: url(CursedTimerUlil-Aznm.ttf) format("truetype");
+  }
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    margin: 100px;
+    font-family: 'Verdena', 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+button {
+    cursor: pointer;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-weight: 1000;
+    font-size: 5ch;
+    width: 200px
+}
+
+p {
+    font-family: "Cursed", sans-serif;
+    font-size: 5ch;
+    color: #F94F6D;
+    background-color: black;
+    padding: 20px 0;
+    margin: 0 30px
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px
+}
+
+.main-app{
+    background: #253789;
+    border: 3px solid rgb(207, 180, 180);
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.point-btn {
+    font-family: 'Cursed';
+    margin: auto;
+    margin-top: 10%;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.reset-btn {
+    flex-shrink: 0;
+    font-size: 3ch;
+    font-weight: 700;
+    color: #EEEEEE;
+    background-color: red;
+    border-radius: 10px;
+    margin: 5vh auto;
+    width: 20vh;
+    padding: 10px;
+}
+
+.home, .guest {
+    min-width: 25%;
+}
